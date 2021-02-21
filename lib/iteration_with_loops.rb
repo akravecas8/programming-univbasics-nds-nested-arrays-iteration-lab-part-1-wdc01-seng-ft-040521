@@ -1,8 +1,10 @@
 def find_even_values(src)
   count=0
-    while count<src.length
-      if src.[count].even?
-        p src.[count]
+    while count<src[count].length
+    index=0
+      if src.[count][index].even?
+        p src.[count][index]
+        index+=1
       end
     end
   count+=1
