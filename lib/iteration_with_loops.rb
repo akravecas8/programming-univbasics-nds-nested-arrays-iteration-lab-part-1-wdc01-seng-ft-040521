@@ -8,6 +8,5 @@ def find_even_values(src)
         end  
         index+=1
       end
-    end
   count+=1
 end
